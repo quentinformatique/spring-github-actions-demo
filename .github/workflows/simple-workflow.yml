@@ -13,4 +13,4 @@ jobs:
       - name: GET source code
         run: echo 'Récupération du code'
       - name: check finished
-        run: echo 'Verif terminée
+        run: echo 'Verif terminée'
