@@ -1,0 +1,16 @@
+name: Simple workflow
+
+on:
+  schedule:
+    - cron: 0 * * * * 
+  workflow_dispatch:
+    
+
+jobs:
+  main_job:
+    ruruns-on: ubuntu-latest
+    steps:
+      - name: GET source code
+        run: echo 'Récupération du code'
+      - name: check finished
+        run: echo 'Verif terminée
