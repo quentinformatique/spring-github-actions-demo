@@ -8,7 +8,7 @@ on:
 
 jobs:
   main_job:
-    ruruns-on: ubuntu-latest
+    runs-on: ubuntu-latest
     steps:
       - name: GET source code
         run: echo 'Récupération du code'
